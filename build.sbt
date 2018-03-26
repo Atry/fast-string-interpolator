@@ -128,7 +128,7 @@ lazy val benchmark = project
   .settings(
     crossScalaVersions := Seq("2.12.4", "2.11.12"),
     libraryDependencies ++= Seq(
-      "com.dongxiguo" %% "fastring" % "0.3.1",
+      "com.dongxiguo" %% "fastring" % "1.0.0",
       "com.outr" %% "perfolation" % "1.0.0",
       "org.scalatest" %% "scalatest" % "3.0.5-M1" % Test
     )
